@@ -9,7 +9,7 @@ library(dada2)
 library(ShortRead)
 
 rm(list=ls())
-path <- "E:/DADA2/MH-MiSeq" # CHANGE ME to the directory containing the fastq file after unzipping.
+path <- "E:/DADA2/MH-MiSeq" # CHANGE ME to the directory containing the fastq files after unzipping.
 list.files(path)
 
 # Get forward fastq filenames
@@ -47,7 +47,7 @@ dadaFs[[1]]
 
 library(stringr)
 
-configInfo <- read.table("E:/DADA2/MH3_230913(LRRC63-A).config", sep="\t") # Config file for STRait Razor
+configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t") # CHANGE ME to the directory containing Configuration file for STRait Razor
 countMH <- nrow(configInfo)
 
 outputDir <- paste0(path, "/", "Output") # Set subdirectory for STRait Razor-formatted result
