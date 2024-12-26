@@ -3,7 +3,7 @@
 #https://benjjneb.github.io/dada2/ITS_workflow.html
 
 
-# DADA2 Pipeline for Microhalotype NGS using MiSeq
+# DADA2 Pipeline for Microhaplotype NGS using MiSeq
 
 library(dada2)
 library(ShortRead)
