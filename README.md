@@ -1,5 +1,5 @@
 # DADA2-SE
-R scripts for microhaplotype analysis of MiSeq sequencing data using DADA2.
+This R script performs ASVs inference and haplotype identification steps in the analysis of MiSeq sequencing data for microhaplotypes using DADA2.
 
 ![figure](https://github.com/user-attachments/assets/e8381d63-39fb-4836-82fc-f63a7eeb89e9)
 
