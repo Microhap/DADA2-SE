@@ -1,7 +1,7 @@
 # DADA2-SE
 R scripts for microhaplotype analysis of MiSeq sequencing data using DADA2.
 
-![figure](https://github.com/user-attachments/assets/09186386-39ed-41a9-886f-72ff8959b80a)
+![figure](https://github.com/user-attachments/assets/e8381d63-39fb-4836-82fc-f63a7eeb89e9)
 
 
 ## Requirements
