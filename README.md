@@ -30,10 +30,6 @@ The `example/` directory now includes:
    - These files serve as example data for pipeline testing and validation.
 
 
-
----
-
-
 ## Usage
 1. Place your Configuration and FASTQ files in the appropriate directories.
 2. Modify the Configuration and FASTQ file paths in the script to reflect the correct paths.
