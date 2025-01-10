@@ -16,7 +16,9 @@ This R script performs ASVs inference and haplotype identification steps in the 
   (e.g., "E:/DADA2/MH24_241224.config")
 
 
-
+<br>
+<br>
+<br>
 
 ## FASTQ File Preparation
 - This pipeline is designed to use **forward reads** generated from MiSeq, which provides high sequencing quality.
