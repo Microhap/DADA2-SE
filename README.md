@@ -3,8 +3,6 @@ This R script performs ASVs inference and haplotype identification steps in the 
 <br> 
 <br> 
 ![figure](https://github.com/user-attachments/assets/e8381d63-39fb-4836-82fc-f63a7eeb89e9)
-
-<br>
 <br>
 
 ## Requirements
