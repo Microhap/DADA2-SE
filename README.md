@@ -13,7 +13,7 @@ This R script performs ASVs inference and haplotype identification steps in the 
 
 ## Configuration File Preparation
 - Make sure to modify the path in the script to reflect the actual path of your config file.
-  (e.g., "E:/DADA2/MH24_241224.config")
+  <br> (e.g., "E:/DADA2/MH24_241224.config")
 
 <br>
 
