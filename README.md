@@ -1,6 +1,7 @@
 # DADA2-SE
 This R script performs ASVs inference and haplotype identification steps in the analysis of MiSeq sequencing data for microhaplotypes using DADA2.
 <br> 
+<br> 
 ![figure](https://github.com/user-attachments/assets/e8381d63-39fb-4836-82fc-f63a7eeb89e9)
 
 <br>
@@ -12,13 +13,11 @@ This R script performs ASVs inference and haplotype identification steps in the 
 - Required packages: `dada2`, `ShortRead`, `stringr`
 
 <br>
-<br>
 
 ## Configuration File Preparation
 - Make sure to modify the path in the script to reflect the actual path of your config file.
   (e.g., "E:/DADA2/MH24_241224.config")
 
-<br>
 <br>
 
 ## FASTQ File Preparation
@@ -30,14 +29,12 @@ This R script performs ASVs inference and haplotype identification steps in the 
   (e.g., "E:/DADA2/MH-MiSeq"). 
 
 <br>
-<br>
 
 ## Example Data in `example/`
 The `example/` directory now includes:
 1. A **configuration file** for STRait Razor format conversion: `MH24_241224.config`
 2. **Two FASTQ files for 2800M reference DNA**:`2800M#1_S1_L001_R1_001.fastq` and `2800M#2_S2_L001_R1_001.fastq`
 
-<br>
 <br>
 
 ## Usage
