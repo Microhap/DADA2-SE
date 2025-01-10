@@ -23,14 +23,16 @@ This R script performs ASVs inference and haplotype identification steps in the 
   (e.g., "E:/DADA2/MH-MiSeq"). 
 
 
-### Example Data in `example/`
+## Example Data in `example/`
 The `example/` directory now includes:
 1. A configuration file for STRait Razor format conversion (`MH24_241224.config`).
 2. **Two FASTQ files for 2800M reference DNA**:
    - These files serve as example data for pipeline testing and validation.
 
 
+
 ---
+
 
 ## Usage
 1. Place your Configuration and FASTQ files in the appropriate directories.
