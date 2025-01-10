@@ -6,7 +6,6 @@ This R script performs ASVs inference and haplotype identification steps in the 
 
 <br>
 <br>
-<br>
 
 ## Requirements
 - R version >= 4.0
