@@ -1,5 +1,5 @@
 # DADA2-SE
-This R script performs ASVs inference and haplotype identification steps in the analysis of MiSeq sequencing data for microhaplotypes using DADA2.
+This R script performs ASVs inference and haplotype identification steps in the analysis of Illumina MiSeq sequencing data for microhaplotypes using DADA2.
 <br> 
 <br> 
 ![figure](https://github.com/user-attachments/assets/e8381d63-39fb-4836-82fc-f63a7eeb89e9)
@@ -12,9 +12,9 @@ This R script performs ASVs inference and haplotype identification steps in the 
 <br>
 
 ## FASTQ File Preparation
-- This pipeline is designed to use **forward reads** generated from MiSeq, which provides high sequencing quality.
-  **Paired-end reads merged into a single FASTQ file are not recommended** due to potential quality issues in reverse reads.
-- At least **two FASTQ files** are required to run this pipeline.
+- This pipeline recommends using **only the forward reads** as input.
+  **Merged paired-end reads into a single FASTQ file are not recommended** due to potential quality issues in reverse reads.
+- At least **two FASTQ files** are required, corresponding to at least two independent samples.
 - The FASTQ files should be generated from the **same batch of sequencing** to ensure consistent error modeling and quality control.
 - Make sure to modify the path in the script to reflect the actual path of your FASTQ files.
   <br> (e.g., "E:/DADA2/MH-MiSeq") 
@@ -36,5 +36,5 @@ The `example/` directory now includes:
 
 ## Usage
 1. Place your Configuration and FASTQ files in the appropriate directories.
-2. Modify the Configuration and FASTQ file paths in the script to reflect the correct paths.
+2. Modify the Configuration and FASTQ file paths in the script to reflect the actual paths.
 3. Run the script.
