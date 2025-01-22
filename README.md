@@ -14,7 +14,7 @@ If these packages are not installed, please install them before running the scri
 
 # Install multiple packages at once
 install.packages(c("dada2", "ShortRead", "stringr"))
-
+```
 
 <br>
 
