@@ -25,7 +25,10 @@ install.packages(c("dada2", "ShortRead", "stringr"))
 - At least two FASTQ files are required, corresponding to at least two independent samples.
 - The FASTQ files should be generated from the same batch of sequencing to ensure consistent error modeling and quality control.
 - Make sure to modify the path in the script to reflect the absolute path of your FASTQ files.
-  <br> (e.g., "E:/DADA2/MH-MiSeq") 
+  <br> (e.g., "E:/DADA2/MH-MiSeq")
+  ```
+  path <- "E:/DADA2/MH-MiSeq" # CHANGE ME to the directory containing the fastq files after unzipping.
+  ```
 
 
 ### 2.  Configuration file 
