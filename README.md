@@ -27,7 +27,7 @@ This R script performs ASVs inference and haplotype identification steps in the 
 - Make sure to modify the path in the script to reflect the actual path of your config file.
   <br> (e.g., "E:/DADA2/MH24_241224.config")
   
-- Below is an example of a properly formatted configuration file:
+- Below is an example of aconfiguration file:
 
     | Marker      | Type | 5' Flank       | 3' Flank       | Motif | Period | Offset |
     |-------------|------|----------------|----------------|-------|--------|--------|
