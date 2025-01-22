@@ -51,7 +51,7 @@ install.packages(c("dada2", "ShortRead", "stringr"))
 <br>
 
 ## Example dataset 
-You can download the example dataset in the `example/` directory. The `example/` directory now includes:
+You can download the example dataset in the `example/` directory. <br> The `example/` directory now includes:
 - Two FASTQ files for 2800M reference DNA: Amplicon sequencing data for 24 microhaplotype markers. `2800M#1_S1_L001_R1_001.fastq`, `2800M#2_S2_L001_R1_001.fastq`
 
 - A configuration file for haplotype identification: `MH24_241224.config`
