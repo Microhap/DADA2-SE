@@ -32,12 +32,6 @@ install.packages(c("dada2", "ShortRead", "stringr"))
 
 
 ### 2.  Configuration file 
-- Make sure to modify the path in the script to reflect the absolute path of your configuration file.
-  
-  ```
-  configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t")   # CHANGE ME to the directory containing Configuration file 
-  ```
-  
 - Below is an example of a configuration file:
 
     | Marker      | Type | 5'Flank       | 3'Flank       | Motif | Period | Offset |
@@ -53,6 +47,12 @@ install.packages(c("dada2", "ShortRead", "stringr"))
   - **Motif**: The repeat motif of the marker, set to "A" in this microhaplotype analysis.
   - **Period**: The number of bases in the repeat unit of the motif, set to "1" in this microhaplotype analysis.
   - **Offset**: The length of the sequence inside the 5'Flank and 3'Flank regions.
+ 
+- Make sure to modify the path in the script to reflect the absolute path of your configuration file.
+  
+  ```
+  configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t")   # CHANGE ME to the directory containing Configuration file 
+  ```
 
 <br>
 
@@ -61,7 +61,7 @@ You can download the example dataset in the `example/` directory.
 
 The `example/` directory now includes:
 
-- Two FASTQ files for 2800M reference DNA with amplicon sequencing data for 24 microhaplotype markers:
+- Two FASTQ files for 2800M reference DNA with amplicon sequencing data for 24 microhaplotypes:
   ```
   ./example/2800M#1_S1_L001_R1_001.fastq
   ```
@@ -69,7 +69,7 @@ The `example/` directory now includes:
   ./example/2800M#2_S2_L001_R1_001.fastq
   ```
 
-- A configuration file for haplotype identification:
+- A configuration file for 24 microhaplotypes:
   ```
   ./example/MH24_241224.config
   ```
