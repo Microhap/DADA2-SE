@@ -68,4 +68,6 @@ The `example/` directory now includes:
 
 - This output file can be directly used as input for **Visual Microhap** (http://forensic.yonsei.ac.kr/VisualMH/index.html), enabling genotype calling of microhaplotype.
 
+<br>
 
+## Citation
