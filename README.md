@@ -36,7 +36,7 @@ This R script performs ASVs inference and haplotype identification steps in the 
     | mh13KK_213  | MH   | CAGCAAGGAGAA   | TTGAGTTGATCA   | A     | 1      | 194    |
 
   - **Marker**: The identifier for the microhaplotype marker (e.g., mh09KK-153).
-  - **Type**: The type of marker. In this analysis, the value is always "MH" for microhaplotypes.
+  - **Type**: The type of marker ("MH" for microhaplotypes).
   - **5'Flank**: Part of the 5'-end sequence of each marker.
   - **3'Flank**: Part of the 3'-end sequence of each marker.
   - **Motif**: The repeating motif in the marker region, set to "A" in this microhaplotype analysis.
