@@ -9,7 +9,7 @@ library(dada2)
 library(ShortRead)
 
 rm(list=ls())
-path <- "E:/DADA2/MH-MiSeq" # CHANGE ME to the directory containing the fastq files after unzipping.
+path <- "E:/DADA2/MH-MiSeq" # CHANGE ME to the directory containing the fastq files after unzipping
 list.files(path)
 
 # Get forward fastq filenames
