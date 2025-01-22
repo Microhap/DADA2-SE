@@ -33,7 +33,7 @@ install.packages(c("dada2", "ShortRead", "stringr"))
 ### 2.  Configuration file 
 - Make sure to modify the path in the script to reflect the absolute path of your configuration file.
   ```
-  configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t")   # CHANGE ME to the directory containing Configuration file for STRait Razor
+  configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t")   # CHANGE ME to the directory containing Configuration file 
   ```
   
 - Below is an example of a configuration file:
