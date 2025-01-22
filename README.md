@@ -27,15 +27,15 @@ This R script performs ASVs inference and haplotype identification steps in the 
 - Make sure to modify the path in the script to reflect the actual path of your config file.
   <br> (e.g., "E:/DADA2/MH24_241224.config")
 
-| Column Name | Description |
-|-------------|-------------|
-| **Marker**  | The identifier for the microhaplotype marker (e.g., mh09KK-153). |
-| **Type**    | The type of marker. In this analysis, the value is always "MH" for microhaplotypes. |
-| **5'Flank** | The sequence of the 5' flanking region of the marker. |
-| **3'Flank** | The sequence of the 3' flanking region of the marker. |
-| **Motif**   | The repeating motif in the marker region (e.g., "A"). |
-| **Period**  | The number of bases in the repeating unit of the motif. |
-| **Offset**  | The offset or position information for the marker in the sequence. |
+ | Column Name | Description |
+ |-------------|-------------|
+ | **Marker**  | The identifier for the microhaplotype marker (e.g., mh09KK-153). |
+ | **Type**    | The type of marker. In this analysis, the value is always "MH" for microhaplotypes. |
+ | **5'Flank** | The sequence of the 5' flanking region of the marker. |
+ | **3'Flank** | The sequence of the 3' flanking region of the marker. |
+ | **Motif**   | The repeating motif in the marker region (e.g., "A"). |
+ | **Period**  | The number of bases in the repeating unit of the motif. |
+ | **Offset**  | The offset or position information for the marker in the sequence. |
 
 <br>
 
