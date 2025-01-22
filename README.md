@@ -27,7 +27,7 @@ install.packages(c("dada2", "ShortRead", "stringr"))
 - Make sure to modify the path in the script to reflect the absolute path of your FASTQ files.
   
   ```
-  path <- "E:/DADA2/MH-MiSeq"   # CHANGE ME to the directory containing the fastq files after unzipping.
+  path <- "E:/DADA2/MH-MiSeq"   # CHANGE ME to the directory containing the fastq files after unzipping
   ```
 
 
