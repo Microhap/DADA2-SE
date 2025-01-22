@@ -10,13 +10,11 @@ This R script performs ASVs inference and haplotype identification steps in the 
 - Required packages: `dada2`, `ShortRead`, `stringr`
 
 If these packages are not installed, please install them before running the script. 
-```r
 
-# Install multiple packages at once
+```r
 install.packages(c("dada2", "ShortRead", "stringr"))
 ```
 
-<br>
 
 ## Inputs
 
