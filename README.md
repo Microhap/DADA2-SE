@@ -29,7 +29,7 @@ This R script performs ASVs inference and haplotype identification steps in the 
   
 - Below is an example of a configuration file:
 
-    | Marker      | Type | 5' Flank       | 3' Flank       | Motif | Period | Offset |
+    | Marker      | Type | 5'Flank       | 3'Flank       | Motif | Period | Offset |
     |-------------|------|----------------|----------------|-------|--------|--------|
     | mh09KK_153  | MH   | GGCAGTCTTCAT   | GGCTGTATGATA   | A     | 1      | 155    |
     | mh02KK_134  | MH   | CCCTTGGCAGGA   | TACGAGCCTCAA   | A     | 1      | 118    |
