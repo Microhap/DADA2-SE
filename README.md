@@ -59,6 +59,18 @@ The `example/` directory now includes:
 
 - A configuration file for haplotype identification: `MH24_241224.config`
 
+
+- Two FASTQ files for 2800M reference DNA: Amplicon sequencing data for 24 microhaplotype markers.
+  ```
+  `./example/2800M#1_S1_L001_R1_001.fastq`, `./example/2800M#2_S2_L001_R1_001.fastq`
+  ```
+
+- A configuration file for haplotype identification:
+  ```
+  `./example/MH24_241224.config`
+  ```
+
+
 <br>
 
 ## Outputs
