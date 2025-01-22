@@ -27,7 +27,6 @@ install.packages(c("dada2", "ShortRead", "stringr"))
 - Make sure to modify the path in the script to reflect the **absolute path** of your FASTQ files.
   <br> (e.g., "E:/DADA2/MH-MiSeq") 
 
-<br>
 
 ### 2. Configuration file 
 - Make sure to modify the path in the script to reflect the **absolute path** of your configuration file.
