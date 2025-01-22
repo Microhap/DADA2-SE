@@ -52,7 +52,7 @@ install.packages(c("dada2", "ShortRead", "stringr"))
 
 ## Example data 
 The `example/` directory now includes:
-- **Two FASTQ files for 2800M reference DNA**: `2800M#1_S1_L001_R1_001.fastq` and `2800M#2_S2_L001_R1_001.fastq`<br> 
+- **Two FASTQ files for 2800M reference DNA**: Amplicon sequencing data for 24 microhaplotype markers. `2800M#1_S1_L001_R1_001.fastq` and `2800M#2_S2_L001_R1_001.fastq`<br> 
 - A **configuration file** for haplotype identification: `MH24_241224.config`
 
 <br>
