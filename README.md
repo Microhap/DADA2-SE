@@ -24,10 +24,10 @@ This R script performs ASVs inference and haplotype identification steps in the 
 <br>
 
 ### 2. Configuration File 
-- Make sure to modify the path in the script to reflect the actual path of your config file.
+- Make sure to modify the path in the script to reflect the actual path of your configuration file.
   <br> (e.g., "E:/DADA2/MH24_241224.config")
   
-- Below is an example of aconfiguration file:
+- Below is an example of a configuration file:
 
     | Marker      | Type | 5' Flank       | 3' Flank       | Motif | Period | Offset |
     |-------------|------|----------------|----------------|-------|--------|--------|
@@ -48,7 +48,7 @@ This R script performs ASVs inference and haplotype identification steps in the 
 ## Example data in `example/` directory
 The `example/` directory now includes:
 1. **Two FASTQ files for 2800M reference DNA**: `2800M#1_S1_L001_R1_001.fastq` and `2800M#2_S2_L001_R1_001.fastq`<br> <br>
-2. A **configuration file** for STRait Razor format conversion: `MH24_241224.config`
+2. A **configuration file** for STRait Razor 3.0 format conversion: `MH24_241224.config`
 
 <br>
 
@@ -66,6 +66,6 @@ The `example/` directory now includes:
     | mh02KK_134  | 118            | ACCCTCTCTACCTAAGGATGGGCAATGGCTTATGAGTGAGAAACATGGAGCCGTGGGAACTCAGAATGACATGCTACCTGGAGATTGTGGTAACGCCCTGTTTTTTTGTGGGCATATC                                                                                   | 1429          | 0    |
     | mh13KK_213  | 195            | CTTCAGTTGTCAAGGTATTGGGTACAGGGGTCAGAAAGAAACATGACTCCATGGACCACTGCTTGGCCCAAGACCAGATGTCAAAACCACAGAGCCCTGCTGTAGAGCATTACAAATGTATTCCACCAAATGTTGGGATGCATCCTAGACCTGTGCTGACCAGCAGTCCCCAGCTGTGAGGAGAAGCCCGCCATT | 2133          | 0    |
 
-- These output files can be directly used as input for **Visual Microhap** (http://forensic.yonsei.ac.kr/VisualMH/index.html), enabling genotype calling.
+- These output files can be directly used as input for **Visual Microhap** (http://forensic.yonsei.ac.kr/VisualMH/index.html), enabling genotype calling of microhaplotype.
 
 
