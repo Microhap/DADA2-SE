@@ -39,8 +39,8 @@ This R script performs ASVs inference and haplotype identification steps in the 
   - **Type**: The type of marker ("MH" for microhaplotypes).
   - **5'Flank**: Part of the 5'-end sequence of each marker.
   - **3'Flank**: Part of the 3'-end sequence of each marker.
-  - **Motif**: The repeating motif in the marker region, set to "A" in this microhaplotype analysis.
-  - **Period**: The number of bases in the repeating unit of the motif, set to "1" in this microhaplotype analysis.
+  - **Motif**: The repeat motif of the marker, set to "A" in this microhaplotype analysis.
+  - **Period**: The number of bases in the repeat unit of the motif, set to "1" in this microhaplotype analysis.
   - **Offset**: The length of the sequence inside the 5'Flank and 3'Flank regions.
 
 <br>
