@@ -47,7 +47,7 @@ dadaFs[[1]]
 
 library(stringr)
 
-configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t") # CHANGE ME to the directory containing Configuration file for STRait Razor
+configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t") # CHANGE ME to the directory containing Configuration file 
 countMH <- nrow(configInfo)
 
 outputDir <- paste0(path, "/", "Output") # Set subdirectory for STRait Razor-formatted result
