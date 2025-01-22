@@ -29,7 +29,7 @@ This R script performs ASVs inference and haplotype identification steps in the 
 
 <br>
 
-### Example Data in `example/`
+### * Example Data in `example/`
 The `example/` directory now includes:
 1. **Two FASTQ files for 2800M reference DNA**: `2800M#1_S1_L001_R1_001.fastq` and `2800M#2_S2_L001_R1_001.fastq`<br> <br>
 2. A **configuration file** for STRait Razor format conversion: `MH24_241224.config`
