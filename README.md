@@ -55,7 +55,7 @@ You can download the example dataset in the `example/` directory.
 
 The `example/` directory now includes:
 
-- Two FASTQ files for 2800M reference DNA: Amplicon sequencing data for 24 microhaplotype markers.
+- Two FASTQ files for 2800M reference DNA (Amplicon sequencing data for 24 microhaplotype markers):
   ```
   ./example/2800M#1_S1_L001_R1_001.fastq
   ```
