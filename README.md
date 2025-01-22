@@ -47,8 +47,8 @@ This R script performs ASVs inference and haplotype identification steps in the 
 
 ## Example data 
 The `example/` directory now includes:
-1. **Two FASTQ files for 2800M reference DNA**: `2800M#1_S1_L001_R1_001.fastq` and `2800M#2_S2_L001_R1_001.fastq`<br> 
-2. A **configuration file** for haplotype identification: `MH24_241224.config`
+- **Two FASTQ files for 2800M reference DNA**: `2800M#1_S1_L001_R1_001.fastq` and `2800M#2_S2_L001_R1_001.fastq`<br> 
+- A **configuration file** for haplotype identification: `MH24_241224.config`
 
 <br>
 
