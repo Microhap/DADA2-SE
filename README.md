@@ -41,7 +41,7 @@ This R script performs ASVs inference and haplotype identification steps in the 
   - **3'Flank**: The sequence of the 3' flanking region of the marker.
   - **Motif**: The repeating motif in the marker region (e.g., "A").
   - **Period**: The number of bases in the repeating unit of the motif.
-  - **Offset**: The offset or position information for the marker in the sequence.
+  - **Offset**: The offset information for the marker in the sequence.
 
 <br>
 
@@ -58,7 +58,7 @@ The `example/` directory now includes:
 
 - Below is an example of the output file for 2800M#1:
 
-    | Marker      | Size (bp) | Sequence                                                                                                                                                                                                                                      | Coverage#1 | Coverage#2 |
+    | Marker      | Size(bp) | Sequence                                                                                                                                                                                                                                      | Coverage#1 | Coverage#2 |
     |-------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|------|
     | mh09KK_153  | 155            | GCTCTGAACAATTGGGTATTCTTTTTTCTTAGAGCCCAGATGCATTTTTTTGAAAGTCGTTCCAGGGGCCTGAGATGAAGTGGGGGTGTGAGAAGTAAGTTGGCTAGGGCAGATAGAACCTAAGTGTCTTCTCCTTAAGTCAGCTCCCCTTATGA                                     | 1677          | 0    |
     | mh09KK_153  | 155            | GCTCTGAACAATTGGGTATTCTTTTTTCTTAGAGCCCAGATGCATTTTTTTGAAAGTCGTTCCAGGGGCCTGAGATGAAGTGGGGGTGTGAGAAGTAAGTTGGCTAGGGCAGATAGCACCTAAGTGTCTTCTCCTTAAGTCAGCTCCCCTTATGA                                     | 1186          | 0    |
