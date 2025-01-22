@@ -12,6 +12,7 @@ This R script performs ASVs inference and haplotype identification steps in the 
 If these packages are not installed, please install them before running the script. 
 
 ```r
+# CRAN
 install.packages(c("dada2", "ShortRead", "stringr"))
 ```
 <br>
