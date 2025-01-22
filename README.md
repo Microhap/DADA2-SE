@@ -13,7 +13,7 @@ This R script performs ASVs inference and haplotype identification steps in the 
 
 ## Inputs
 
-### FASTQ File Preparation
+### 1. FASTQ Files 
 - This pipeline recommends using **only the forward reads** as input.
   **Merged paired-end reads into a single FASTQ file are not recommended** due to potential quality issues in reverse reads.
 - At least **two FASTQ files** are required, corresponding to at least two independent samples.
@@ -23,13 +23,13 @@ This R script performs ASVs inference and haplotype identification steps in the 
 
 <br>
 
-### Configuration File Preparation
+### 2. Configuration File 
 - Make sure to modify the path in the script to reflect the actual path of your config file.
   <br> (e.g., "E:/DADA2/MH24_241224.config")
 
 <br>
 
-## Example Data in `example/`
+### Example Data in `example/`
 The `example/` directory now includes:
 1. **Two FASTQ files for 2800M reference DNA**: `2800M#1_S1_L001_R1_001.fastq` and `2800M#2_S2_L001_R1_001.fastq`<br> <br>
 2. A **configuration file** for STRait Razor format conversion: `MH24_241224.config`
