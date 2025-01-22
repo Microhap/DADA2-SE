@@ -52,7 +52,15 @@ The `example/` directory now includes:
 
 ## Outputs
 
+- Below is an example of the output file for 2800M#1:
 
+    | Marker      | Length (bases) | Sequence                                                                                                                                                                                                                                      | Read Coverage | Size |
+    |-------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|------|
+    | mh09KK-153  | 155            | GCTCTGAACAATTGGGTATTCTTTTTTCTTAGAGCCCAGATGCATTTTTTTGAAAGTCGTTCCAGGGGCCTGAGATGAAGTGGGGGTGTGAGAAGTAAGTTGGCTAGGGCAGATAGAACCTAAGTGTCTTCTCCTTAAGTCAGCTCCCCTTATGA                                     | 1677          | 0    |
+    | mh09KK-153  | 155            | GCTCTGAACAATTGGGTATTCTTTTTTCTTAGAGCCCAGATGCATTTTTTTGAAAGTCGTTCCAGGGGCCTGAGATGAAGTGGGGGTGTGAGAAGTAAGTTGGCTAGGGCAGATAGCACCTAAGTGTCTTCTCCTTAAGTCAGCTCCCCTTATGA                                     | 1186          | 0    |
+    | mh02KK-134  | 118            | ACCCTCACTACCTAAGGATGGGCAATGGCTCATGAGTGAGAAACATGGAGCCGTGGGAACTCAGAATGACATGCTACCTGGAGATTGTGGTAACGCCCTGTTTTTTTGTGGGCATATC                                                                                   | 1651          | 0    |
+    | mh02KK-134  | 118            | ACCCTCTCTACCTAAGGATGGGCAATGGCTTATGAGTGAGAAACATGGAGCCGTGGGAACTCAGAATGACATGCTACCTGGAGATTGTGGTAACGCCCTGTTTTTTTGTGGGCATATC                                                                                   | 1429          | 0    |
+    | mh13KK-213  | 195            | CTTCAGTTGTCAAGGTATTGGGTACAGGGGTCAGAAAGAAACATGACTCCATGGACCACTGCTTGGCCCAAGACCAGATGTCAAAACCACAGAGCCCTGCTGTAGAGCATTACAAATGTATTCCACCAAATGTTGGGATGCATCCTAGACCTGTGCTGACCAGCAGTCCCCAGCTGTGAGGAGAAGCCCGCCATT | 2133          | 0    |
 
 
 
