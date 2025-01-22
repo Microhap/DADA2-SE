@@ -10,6 +10,7 @@ This R script performs ASVs inference and haplotype identification steps in the 
 - Required packages: `dada2`, `ShortRead`, `stringr`
 
 <br>
+
 ## Inputs
 
 ### FASTQ File Preparation
