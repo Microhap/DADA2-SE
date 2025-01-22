@@ -10,8 +10,9 @@ This R script performs ASVs inference and haplotype identification steps in the 
 - Required packages: `dada2`, `ShortRead`, `stringr`
 
 <br>
+## Inputs
 
-## FASTQ File Preparation
+### FASTQ File Preparation
 - This pipeline recommends using **only the forward reads** as input.
   **Merged paired-end reads into a single FASTQ file are not recommended** due to potential quality issues in reverse reads.
 - At least **two FASTQ files** are required, corresponding to at least two independent samples.
@@ -21,7 +22,7 @@ This R script performs ASVs inference and haplotype identification steps in the 
 
 <br>
 
-## Configuration File Preparation
+### Configuration File Preparation
 - Make sure to modify the path in the script to reflect the actual path of your config file.
   <br> (e.g., "E:/DADA2/MH24_241224.config")
 
