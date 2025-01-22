@@ -1,5 +1,5 @@
 # DADA2-SE
-This R script performs ASVs inference and haplotype identification steps in the analysis of Illumina MiSeq sequencing data for microhaplotypes using DADA2. The subsequent **genotype calling** step is performed by **Visual Microhap** (http://forensic.yonsei.ac.kr/VisualMH/index.html).
+This R script performs ASVs inference and haplotype identification steps in the analysis of Illumina MiSeq sequencing data for microhaplotypes using DADA2. The subsequent genotype calling step is performed by Visual Microhap (http://forensic.yonsei.ac.kr/VisualMH/index.html).
 <br> 
 <br> 
 ![figure](https://github.com/user-attachments/assets/e8381d63-39fb-4836-82fc-f63a7eeb89e9)
