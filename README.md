@@ -20,16 +20,16 @@ install.packages(c("dada2", "ShortRead", "stringr"))
 ## Inputs
 
 ### 1. FASTQ files 
-- This pipeline recommends using **only the forward reads** as input.
-  **Merged paired-end reads into a single FASTQ file are not recommended** due to potential quality issues in reverse reads.
-- At least **two FASTQ files** are required, corresponding to at least two independent samples.
-- The FASTQ files should be generated from the **same batch of sequencing** to ensure consistent error modeling and quality control.
-- Make sure to modify the path in the script to reflect the **absolute path** of your FASTQ files.
+- This pipeline recommends using only the forward reads as input.
+  Merged paired-end reads into a single FASTQ file are not recommended due to potential quality issues in reverse reads.
+- At least two FASTQ files are required, corresponding to at least two independent samples.
+- The FASTQ files should be generated from the same batch of sequencing to ensure consistent error modeling and quality control.
+- Make sure to modify the path in the script to reflect the absolute path of your FASTQ files.
   <br> (e.g., "E:/DADA2/MH-MiSeq") 
 
 
 ### 2. Configuration file 
-- Make sure to modify the path in the script to reflect the **absolute path** of your configuration file.
+- Make sure to modify the path in the script to reflect the absolute path of your configuration file.
   <br> (e.g., "E:/DADA2/MH24_241224.config")
   
 - Below is an example of a configuration file:
@@ -52,8 +52,8 @@ install.packages(c("dada2", "ShortRead", "stringr"))
 
 ## Example data 
 The `example/` directory now includes:
-- **Two FASTQ files for 2800M reference DNA**: Amplicon sequencing data for 24 microhaplotype markers. `2800M#1_S1_L001_R1_001.fastq` and `2800M#2_S2_L001_R1_001.fastq`<br> 
-- A **configuration file** for haplotype identification: `MH24_241224.config`
+- Two FASTQ files for 2800M reference DNA: Amplicon sequencing data for 24 microhaplotype markers. `2800M#1_S1_L001_R1_001.fastq` and `2800M#2_S2_L001_R1_001.fastq`<br> 
+- A configuration file for haplotype identification: `MH24_241224.config`
 
 <br>
 
