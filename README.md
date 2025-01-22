@@ -31,9 +31,9 @@ This R script performs ASVs inference and haplotype identification steps in the 
 
     | Marker      | Type | 5' Flank       | 3' Flank       | Motif | Period | Offset |
     |-------------|------|----------------|----------------|-------|--------|--------|
-    | mh09KK-153  | MH   | GGCAGTCTTCAT   | GGCTGTATGATA   | A     | 1      | 155    |
-    | mh02KK-134  | MH   | CCCTTGGCAGGA   | TACGAGCCTCAA   | A     | 1      | 118    |
-    | mh13KK-213  | MH   | CAGCAAGGAGAA   | TTGAGTTGATCA   | A     | 1      | 194    |
+    | mh09KK_153  | MH   | GGCAGTCTTCAT   | GGCTGTATGATA   | A     | 1      | 155    |
+    | mh02KK_134  | MH   | CCCTTGGCAGGA   | TACGAGCCTCAA   | A     | 1      | 118    |
+    | mh13KK_213  | MH   | CAGCAAGGAGAA   | TTGAGTTGATCA   | A     | 1      | 194    |
 
   - **Marker**: The identifier for the microhaplotype marker (e.g., mh09KK-153).
   - **Type**: The type of marker. In this analysis, the value is always "MH" for microhaplotypes.
