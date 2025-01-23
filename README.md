@@ -58,6 +58,14 @@ configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t")   # CHANGE ME 
 
 <br>
 
+## Trimming options
+You may need to adjust several parameters to trim 
+
+For more information on DADA2, refer to the official documentation: 
+
+
+<br>
+
 ## Example dataset 
 You can download the example dataset in the `example/` directory. 
 
@@ -99,6 +107,6 @@ It can be directly used as input for **Visual Microhap** (http://forensic.yonsei
 <br>
 
 ## Citation
-
+If you use this script in your research, please cite the following paper: 
 
 
