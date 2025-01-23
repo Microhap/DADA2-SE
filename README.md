@@ -24,11 +24,11 @@ install.packages(c("dada2", "ShortRead", "stringr"))
 ### 1.  FASTQ files 
 This pipeline recommends using only the forward reads as input. Merged paired-end reads into a single FASTQ file are not recommended due to potential quality issues in reverse reads. At least two FASTQ files are required, corresponding to at least two independent samples. The FASTQ files should be generated from the same batch of sequencing to ensure consistent error modeling and quality control.
 
-- Make sure to modify the path in the script to reflect the absolute path of your FASTQ files.
+Make sure to modify the path in the script to reflect the absolute path of your FASTQ files.
   
-  ```
-  path <- "E:/DADA2/MH-MiSeq"   # CHANGE ME to the directory containing the fastq files after unzipping
-  ```
+```
+path <- "E:/DADA2/MH-MiSeq"   # CHANGE ME to the directory containing the fastq files after unzipping
+```
 
 
 ### 2.  Configuration file 
@@ -36,11 +36,11 @@ Haplotype identification was performed by referencing a configuration file conta
 
 Below is an example of a configuration file:
 
-    | Marker      | Type | 5'Flank       | 3'Flank       | Motif | Period | Offset |
-    |-------------|------|----------------|----------------|-------|--------|--------|
-    | mh09KK_153  | MH   | GGCAGTCTTCAT   | GGCTGTATGATA   | A     | 1      | 155    |
-    | mh02KK_134  | MH   | CCCTTGGCAGGA   | TACGAGCCTCAA   | A     | 1      | 118    |
-    | mh13KK_213  | MH   | CAGCAAGGAGAA   | TTGAGTTGATCA   | A     | 1      | 194    |
+| Marker      | Type | 5'Flank        | 3'Flank        | Motif | Period | Offset |
+|-------------|------|----------------|----------------|-------|--------|--------|
+| mh09KK_153  | MH   | GGCAGTCTTCAT   | GGCTGTATGATA   | A     | 1      | 155    |
+| mh02KK_134  | MH   | CCCTTGGCAGGA   | TACGAGCCTCAA   | A     | 1      | 118    |
+| mh13KK_213  | MH   | CAGCAAGGAGAA   | TTGAGTTGATCA   | A     | 1      | 194    |
 
  - **Marker**: The identifier for the microhaplotype marker (e.g., mh09KK-153).
  - **Type**: The type of marker ("MH" for microhaplotypes).
@@ -52,9 +52,9 @@ Below is an example of a configuration file:
  
 Make sure to modify the path in the script to reflect the absolute path of your configuration file.
   
-  ```
-  configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t")   # CHANGE ME to the directory containing Configuration file 
-  ```
+```
+configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t")   # CHANGE ME to the directory containing Configuration file 
+```
 
 <br>
 
@@ -64,36 +64,34 @@ You can download the example dataset in the `example/` directory.
 The `example/` directory now includes:
 
 - Two FASTQ files for 2800M reference DNA with amplicon sequencing data for 24 microhaplotypes:
-  ```
-  ./example/2800M#1_S1_L001_R1_001.fastq
-  ```
-  ```
-  ./example/2800M#2_S2_L001_R1_001.fastq
-  ```
+```
+./example/2800M#1_S1_L001_R1_001.fastq
+```
+```
+./example/2800M#2_S2_L001_R1_001.fastq
+```
 
 - A configuration file for 24 microhaplotypes:
-  ```
-  ./example/MH24_241224.config
-  ```
+```
+./example/MH24_241224.config
+```
 
 
 <br>
 
 ## Outputs
-
-
+Output file can be directly used as input for **Visual Microhap** (http://forensic.yonsei.ac.kr/VisualMH/index.html), enabling genotype calling of microhaplotype.
 
 Below is an example of the output file for 2800M#1:
 
-    | Marker      | Size(bp) | Sequence                                                                                                                                                                                                                                      | Coverage#1 | Coverage#2 |
-    |-------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|------|
-    | mh09KK_153  | 155            | GCTCTGAACAATTGGGTATTCTTTTTTCTTAGAGCCCAGATGCATTTTTTTGAAAGTCGTTCCAGGGGCCTGAGATGAAGTGGGGGTGTGAGAAGTAAGTTGGCTAGGGCAGATAGAACCTAAGTGTCTTCTCCTTAAGTCAGCTCCCCTTATGA                                     | 1677          | 0    |
-    | mh09KK_153  | 155            | GCTCTGAACAATTGGGTATTCTTTTTTCTTAGAGCCCAGATGCATTTTTTTGAAAGTCGTTCCAGGGGCCTGAGATGAAGTGGGGGTGTGAGAAGTAAGTTGGCTAGGGCAGATAGCACCTAAGTGTCTTCTCCTTAAGTCAGCTCCCCTTATGA                                     | 1186          | 0    |
-    | mh02KK_134  | 118            | ACCCTCACTACCTAAGGATGGGCAATGGCTCATGAGTGAGAAACATGGAGCCGTGGGAACTCAGAATGACATGCTACCTGGAGATTGTGGTAACGCCCTGTTTTTTTGTGGGCATATC                                                                                   | 1651          | 0    |
-    | mh02KK_134  | 118            | ACCCTCTCTACCTAAGGATGGGCAATGGCTTATGAGTGAGAAACATGGAGCCGTGGGAACTCAGAATGACATGCTACCTGGAGATTGTGGTAACGCCCTGTTTTTTTGTGGGCATATC                                                                                   | 1429          | 0    |
-    | mh13KK_213  | 195            | CTTCAGTTGTCAAGGTATTGGGTACAGGGGTCAGAAAGAAACATGACTCCATGGACCACTGCTTGGCCCAAGACCAGATGTCAAAACCACAGAGCCCTGCTGTAGAGCATTACAAATGTATTCCACCAAATGTTGGGATGCATCCTAGACCTGTGCTGACCAGCAGTCCCCAGCTGTGAGGAGAAGCCCGCCATT | 2133          | 0    |
+| Marker      | Size(bp) | Sequence                                                                                                                                                                                                                                      | Coverage#1 | Coverage#2 |
+|-------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|------|
+| mh09KK_153  | 155            | GCTCTGAACAATTGGGTATTCTTTTTTCTTAGAGCCCAGATGCATTTTTTTGAAAGTCGTTCCAGGGGCCTGAGATGAAGTGGGGGTGTGAGAAGTAAGTTGGCTAGGGCAGATAGAACCTAAGTGTCTTCTCCTTAAGTCAGCTCCCCTTATGA                                     | 1677          | 0    |
+| mh09KK_153  | 155            | GCTCTGAACAATTGGGTATTCTTTTTTCTTAGAGCCCAGATGCATTTTTTTGAAAGTCGTTCCAGGGGCCTGAGATGAAGTGGGGGTGTGAGAAGTAAGTTGGCTAGGGCAGATAGCACCTAAGTGTCTTCTCCTTAAGTCAGCTCCCCTTATGA                                     | 1186          | 0    |
+| mh02KK_134  | 118            | ACCCTCACTACCTAAGGATGGGCAATGGCTCATGAGTGAGAAACATGGAGCCGTGGGAACTCAGAATGACATGCTACCTGGAGATTGTGGTAACGCCCTGTTTTTTTGTGGGCATATC                                                                                   | 1651          | 0    |
+| mh02KK_134  | 118            | ACCCTCTCTACCTAAGGATGGGCAATGGCTTATGAGTGAGAAACATGGAGCCGTGGGAACTCAGAATGACATGCTACCTGGAGATTGTGGTAACGCCCTGTTTTTTTGTGGGCATATC                                                                                   | 1429          | 0    |
+| mh13KK_213  | 195            | CTTCAGTTGTCAAGGTATTGGGTACAGGGGTCAGAAAGAAACATGACTCCATGGACCACTGCTTGGCCCAAGACCAGATGTCAAAACCACAGAGCCCTGCTGTAGAGCATTACAAATGTATTCCACCAAATGTTGGGATGCATCCTAGACCTGTGCTGACCAGCAGTCCCCAGCTGTGAGGAGAAGCCCGCCATT | 2133          | 0    |
 
-This output file can be directly used as input for **Visual Microhap** (http://forensic.yonsei.ac.kr/VisualMH/index.html), enabling genotype calling of microhaplotype.
 
 <br>
 
