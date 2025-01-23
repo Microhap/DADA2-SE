@@ -7,6 +7,10 @@ The denoising pipeline for microhaplotype consisted of three main steps: ASVs in
 ![figure](https://github.com/user-attachments/assets/e8381d63-39fb-4836-82fc-f63a7eeb89e9)
 <br>
 
+For more information on DADA2, refer to the official documentation: 
+
+<br>
+
 ## Requirements
 - R version >= 4.0
 - Required packages: `dada2`, `ShortRead`, `stringr`
@@ -55,20 +59,6 @@ Make sure to modify the path in the script to reflect the absolute path of your 
 ```
 configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t")   # CHANGE ME to the directory containing Configuration file 
 ```
-
-<br>
-
-## Trimming options
-You may need to adjust several parameters, such as trimming lengths or maximum expected errors, to optimize the quality of your sequencing data.
-
-```
-out <- filterAndTrim(fnFs, filtFs,  
-                     maxN = 0, maxEE = 2, truncQ = 2, minLen = 120, 
-                     rm.phix = TRUE, compress = TRUE, 
-                     multithread = FALSE) # on windows, set multithread = FALSE
-```
-For more information on DADA2, refer to the official documentation: 
-
 
 <br>
 
