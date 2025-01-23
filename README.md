@@ -7,7 +7,9 @@ For more information on running DADA2, please refer to the [DADA2 pipeline tutor
 
 <br> 
 <br> 
+
 ![Figure](image/denoising pipeline.PNG)
+
 <br>
 
  
