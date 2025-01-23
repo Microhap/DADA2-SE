@@ -6,9 +6,8 @@ The denoising pipeline for microhaplotype consisted of three main steps: ASVs in
 For more information on running DADA2, please refer to the [DADA2 pipeline tutorial](https://benjjneb.github.io/dada2/tutorial.html).
 
 <br> 
-<br> 
 
-![Figure](DADA2-SE/image/denoising pipeline.PNG)
+
 
 <br>
 
