@@ -59,8 +59,14 @@ configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t")   # CHANGE ME 
 <br>
 
 ## Trimming options
-You may need to adjust several parameters to trim 
+You may need to adjust several parameters, such as trimming lengths or maximum expected errors, to optimize the quality of your sequencing data.
 
+```
+out <- filterAndTrim(fnFs, filtFs,  
+                     maxN = 0, maxEE = 2, truncQ = 2, minLen = 120, 
+                     rm.phix = TRUE, compress = TRUE, 
+                     multithread = FALSE) # on windows, set multithread = FALSE
+```
 For more information on DADA2, refer to the official documentation: 
 
 
