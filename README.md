@@ -53,7 +53,8 @@ Below is an example of a configuration file:
  - **Motif**: The repeat motif of the marker, set to "A" in this microhaplotype analysis.
  - **Period**: The number of bases in the repeat unit of the motif, set to "1" in this microhaplotype analysis.
  - **Offset**: The length of the sequence inside the 5'Flank and 3'Flank regions.
- 
+   
+<br> <br> 
 Make sure to modify the path in the script to reflect the absolute path of your configuration file.
   
 ```
