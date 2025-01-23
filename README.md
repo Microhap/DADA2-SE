@@ -97,12 +97,12 @@ Below is an example of the output file for 2800M#1:
 | mh13KK_213  | 195            | CTTCAGTTGTCAAGGTATTGGGTACAGGGGTCAGAAAGAAACATGACTCCATGGACCACTGCTTGGCCCAAGACCAGATGTCAAAACCACAGAGCCCTGCTGTAGAGCATTACAAATGTATTCCACCAAATGTTGGGATGCATCCTAGACCTGTGCTGACCAGCAGTCCCCAGCTGTGAGGAGAAGCCCGCCATT | 2133          | 0    |
 
 
-It can be directly used as input for [**Visual Microhap**](http://forensic.yonsei.ac.kr/VisualMH/index.html), enabling genotype calling of microhaplotype.
+It can be directly used as input for [Visual Microhap](http://forensic.yonsei.ac.kr/VisualMH/index.html), enabling genotype calling of microhaplotype.
 
 
 <br>
 
 ## Citation
-If you use this script in your research, please cite the following paper: 
+If you use this script in your research, please cite the following journal: 
 
 
