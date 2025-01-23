@@ -1,13 +1,13 @@
 # DADA2-SE
 DADA2-SE is an R script that performs denoising of single-end Illumina MiSeq sequencing data for microhaplotypes using DADA2. 
 
-The denoising pipeline for microhaplotype consisted of three main steps: ASVs inference, haplotype identification, and genotype calling. This script performs ASVs inference and haplotype identification steps. The subsequent genotype calling step is performed by [Visual Microhap](http://forensic.yonsei.ac.kr/VisualMH/index.html).
+The denoising pipeline for microhaplotype consisted of three main steps: ASVs inference, haplotype identification, and genotype calling. This script performs ASVs inference and haplotype identification steps. The subsequent genotype calling step is performed by [Visual Microhap](http://forensic.yonsei.ac.kr/VisualMH/index.html). For more details on DADA2, please refer to the [DADA2 pipeline tutorial](https://benjjneb.github.io/dada2/tutorial.html).
+
 <br> 
 <br> 
 ![figure](https://github.com/user-attachments/assets/e8381d63-39fb-4836-82fc-f63a7eeb89e9)
 <br>
 
-For more details on DADA2, please refer to the [DADA2 pipeline tutorial](https://benjjneb.github.io/dada2/tutorial.html).
 
 <br>
 
@@ -33,7 +33,7 @@ Make sure to modify the path in the script to reflect the absolute path of your 
 ```
 path <- "E:/DADA2/MH-MiSeq"   # CHANGE ME to the directory containing the fastq files after unzipping
 ```
-
+<br>
 
 ### 2.  Configuration file 
 Haplotype identification was performed by referencing a configuration file containing marker-specific sequences. The configuration file uses the same format as that of STRait Razor 3.0.
