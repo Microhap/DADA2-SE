@@ -1,5 +1,5 @@
 # DADA2-SE
-DADA2-SE is an R script that performs denoising of single-end Illumina MiSeq sequencing data for microhaplotypes using DADA2. This script performs ASVs inference and haplotype identification steps. The subsequent genotype calling step is performed by Visual Microhap (http://forensic.yonsei.ac.kr/VisualMH/index.html).
+DADA2-SE is an R script that performs denoising of single-end Illumina MiSeq sequencing data for microhaplotypes using DADA2. The denoising pipeline consisted of three main steps: ASVs inference, haplotype identification, and genotype calling. This script performs ASVs inference and haplotype identification steps. The subsequent genotype calling step is performed by Visual Microhap (http://forensic.yonsei.ac.kr/VisualMH/index.html).
 <br> 
 <br> 
 ![figure](https://github.com/user-attachments/assets/e8381d63-39fb-4836-82fc-f63a7eeb89e9)
@@ -20,10 +20,8 @@ install.packages(c("dada2", "ShortRead", "stringr"))
 ## Inputs
 
 ### 1.  FASTQ files 
-- This pipeline recommends using only the forward reads as input.
-  Merged paired-end reads into a single FASTQ file are not recommended due to potential quality issues in reverse reads.
-- At least two FASTQ files are required, corresponding to at least two independent samples.
-- The FASTQ files should be generated from the same batch of sequencing to ensure consistent error modeling and quality control.
+This pipeline recommends using only the forward reads as input. Merged paired-end reads into a single FASTQ file are not recommended due to potential quality issues in reverse reads. At least two FASTQ files are required, corresponding to at least two independent samples. The FASTQ files should be generated from the same batch of sequencing to ensure consistent error modeling and quality control.
+
 - Make sure to modify the path in the script to reflect the absolute path of your FASTQ files.
   
   ```
@@ -32,6 +30,8 @@ install.packages(c("dada2", "ShortRead", "stringr"))
 
 
 ### 2.  Configuration file 
+Haplotype identification was performed by referencing a configuration file containing marker-specific sequences. The configuration file uses the same format as that of STRait Razor 3.0.
+
 - Below is an example of a configuration file:
 
     | Marker      | Type | 5'Flank       | 3'Flank       | Motif | Period | Offset |
