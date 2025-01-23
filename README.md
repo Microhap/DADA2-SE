@@ -3,8 +3,6 @@ DADA2-SE is an R script that performs denoising of single-end Illumina MiSeq seq
 <br> <br> 
 The denoising pipeline for microhaplotype consisted of three main steps: ASVs inference, haplotype identification, and genotype calling. This script performs ASVs inference and haplotype identification steps. The subsequent genotype calling step is performed by [Visual Microhap](http://forensic.yonsei.ac.kr/VisualMH/index.html). 
 
-For more information on running DADA2, please refer to the [DADA2 pipeline tutorial](https://benjjneb.github.io/dada2/tutorial.html).
-
 <br> 
 
 ![Denoising Pipeline](image/denoising%20pipeline.PNG)
@@ -17,7 +15,7 @@ For more information on running DADA2, please refer to the [DADA2 pipeline tutor
 
 If these packages are not installed, please install them before running the script. 
 
-```r
+```
 # CRAN
 install.packages(c("dada2", "ShortRead", "stringr"))
 ```
