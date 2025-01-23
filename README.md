@@ -1,7 +1,7 @@
 # DADA2-SE
 DADA2-SE is an R script that performs denoising of single-end Illumina MiSeq sequencing data for microhaplotypes using DADA2. 
 
-The denoising pipeline for microhaplotype consisted of three main steps: ASVs inference, haplotype identification, and genotype calling. This script performs ASVs inference and haplotype identification steps. The subsequent genotype calling step is performed by Visual Microhap (http://forensic.yonsei.ac.kr/VisualMH/index.html).
+The denoising pipeline for microhaplotype consisted of three main steps: ASVs inference, haplotype identification, and genotype calling. This script performs ASVs inference and haplotype identification steps. The subsequent genotype calling step is performed by [Visual Microhap](http://forensic.yonsei.ac.kr/VisualMH/index.html).
 <br> 
 <br> 
 ![figure](https://github.com/user-attachments/assets/e8381d63-39fb-4836-82fc-f63a7eeb89e9)
@@ -97,7 +97,7 @@ Below is an example of the output file for 2800M#1:
 | mh13KK_213  | 195            | CTTCAGTTGTCAAGGTATTGGGTACAGGGGTCAGAAAGAAACATGACTCCATGGACCACTGCTTGGCCCAAGACCAGATGTCAAAACCACAGAGCCCTGCTGTAGAGCATTACAAATGTATTCCACCAAATGTTGGGATGCATCCTAGACCTGTGCTGACCAGCAGTCCCCAGCTGTGAGGAGAAGCCCGCCATT | 2133          | 0    |
 
 
-It can be directly used as input for **Visual Microhap** (http://forensic.yonsei.ac.kr/VisualMH/index.html), enabling genotype calling of microhaplotype.
+It can be directly used as input for [**Visual Microhap**](http://forensic.yonsei.ac.kr/VisualMH/index.html), enabling genotype calling of microhaplotype.
 
 
 <br>
