@@ -80,7 +80,7 @@ The `example/` directory now includes:
 <br>
 
 ## Outputs
-Output files contain denoised haplotypes for each marker.
+Output files contain denoised haplotype data for each marker.
 
 Below is an example of the output file for 2800M#1:
 
@@ -92,7 +92,7 @@ Below is an example of the output file for 2800M#1:
 | mh02KK_134  | 118            | ACCCTCTCTACCTAAGGATGGGCAATGGCTTATGAGTGAGAAACATGGAGCCGTGGGAACTCAGAATGACATGCTACCTGGAGATTGTGGTAACGCCCTGTTTTTTTGTGGGCATATC                                                                                   | 1429          | 0    |
 | mh13KK_213  | 195            | CTTCAGTTGTCAAGGTATTGGGTACAGGGGTCAGAAAGAAACATGACTCCATGGACCACTGCTTGGCCCAAGACCAGATGTCAAAACCACAGAGCCCTGCTGTAGAGCATTACAAATGTATTCCACCAAATGTTGGGATGCATCCTAGACCTGTGCTGACCAGCAGTCCCCAGCTGTGAGGAGAAGCCCGCCATT | 2133          | 0    |
 
-Output file can be directly used as input for **Visual Microhap** (http://forensic.yonsei.ac.kr/VisualMH/index.html), enabling genotype calling of microhaplotype.
+It can be directly used as input for **Visual Microhap** (http://forensic.yonsei.ac.kr/VisualMH/index.html), enabling genotype calling of microhaplotype.
 
 
 <br>
