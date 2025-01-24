@@ -105,6 +105,6 @@ It can be directly used as input for [Visual Microhap](http://forensic.yonsei.ac
 <br>
 
 ## Citation
-If you use this script in your research, please cite the following journal: 
+
 
 
