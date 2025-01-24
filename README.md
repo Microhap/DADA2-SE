@@ -64,22 +64,22 @@ configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t")   # CHANGE ME 
 
 <br>
 
-## Example dataset 
-You can download the example dataset in the `example/` directory. 
+## Test dataset 
+You can download the test dataset in the `test/` directory. 
 
-The `example/` directory now includes:
+The `test/` directory now includes:
 
 - Two FASTQ files for 2800M reference DNA with amplicon sequencing data for 24 microhaplotypes:
 ```
-./example/2800M#1_S1_L001_R1_001.fastq
+./test/2800M#1_S1_L001_R1_001.fastq
 ```
 ```
-./example/2800M#2_S2_L001_R1_001.fastq
+./test/2800M#2_S2_L001_R1_001.fastq
 ```
 
 - A configuration file for 24 microhaplotypes:
 ```
-./example/MH24_241224.config
+./test/MH24_241224.config
 ```
 
 
