@@ -6,7 +6,7 @@ The denoising pipeline for microhaplotype consisted of three main steps: ASVs in
 <br> 
 
 ![Denoising Pipeline](image/denoising%20pipeline.PNG)
-
+ 
 <br>
 
 ## Requirements
