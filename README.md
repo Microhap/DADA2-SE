@@ -105,7 +105,7 @@ It can be directly used as input for [Visual Microhap](http://forensic.yonsei.ac
 <br>
 
 ## Citation
-If you use this DADA2-SE pipeline in your work, please cite the following article:
+If you use this pipeline in your work, please cite the following article:
 
 > Y.L. Kwon, J. Kim, S.M. Joo, K.J. Shin  
 > *Denoising of microhaplotype MPS data using DADA2 and its application to two-person DNA mixture analysis*  
