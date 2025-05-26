@@ -16,8 +16,12 @@ The denoising pipeline for microhaplotype consists of three main steps: ASV infe
 If these packages are not installed, please install them before running the script. 
 
 ```
+# Bioconductor
+install.packages("BiocManager")
+BiocManager::install(c("dada2", "ShortRead"))
+
 # CRAN
-install.packages(c("dada2", "ShortRead", "stringr"))
+install.packages("stringr")
 ```
 <br>
 
