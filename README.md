@@ -13,6 +13,8 @@ The denoising pipeline for microhaplotype consists of three main steps: ASV infe
 - R version >= 4.0
 - Required packages: `dada2`, `ShortRead`, `stringr`
 
+<br>
+
 If these packages are not installed, please install them before running the script. 
 
 ```
