@@ -54,20 +54,20 @@ configInfo <- read.table("D:/DADA2/MH24_241224.config", sep = "\t")
 outputDir <- file.path(path, "Output")
 if (!dir.exists(outputDir)) dir.create(outputDir)
 
-# --- 함수 정의 ---
+# --- Function definition ---
 process_MH <- function(sample_idx, sample_name, dadaFs, configInfo, outputDir) {
   noAllele <- length(dadaFs[[sample_idx]]$denoised)
   countMH  <- nrow(configInfo)
   
   filePath <- file.path(outputDir, paste0(sample_name, "_DADA2.txt"))
-  file.create(filePath)  # 파일 초기화
+  file.create(filePath)  # Initialize output file
   
   for (j in seq_len(countMH)) {
     MH_marker  <- configInfo[[1]][j]
     fwd_primer <- configInfo[[3]][j]
     rev_primer <- configInfo[[4]][j]
     
-    # --- allele 정보를 모아두는 데이터프레임 ---
+    # --- Data frame to collect allele information ---
     alleleInfo <- data.frame(
       markerNm  = character(0),
       length_bp = integer(0),
@@ -102,15 +102,14 @@ process_MH <- function(sample_idx, sample_name, dadaFs, configInfo, outputDir) {
       }
     }
     
-    # --- 동일한 sequence 합치기 ---
+    # --- Merge identical sequences by summing abundances ---
     if (nrow(alleleInfo) > 0) {
       alleleInfo <- aggregate(abundance ~ markerNm + length_bp + sequence,
                               data = alleleInfo, FUN = sum)
 
-      # → abundance 기준 내림차순 정렬
+      # Sort by abundance in descending order
       alleleInfo <- alleleInfo[order(-alleleInfo$abundance), ]
             
-      # alleleLines로 변환
       alleleLines <- sprintf(
         "%s\t%d bases\t%s\t%d\t0",
         alleleInfo$markerNm,
@@ -124,7 +123,7 @@ process_MH <- function(sample_idx, sample_name, dadaFs, configInfo, outputDir) {
         MH_marker)
     }
     
-    # --- 마커별 기록 후 빈 줄 추가 ---
+    # --- Write marker results and add a blank line ---
     cat(alleleLines, file=filePath, sep="\n", append=TRUE)
     cat("\n", file=filePath, append=TRUE)
   }
@@ -132,8 +131,9 @@ process_MH <- function(sample_idx, sample_name, dadaFs, configInfo, outputDir) {
   message("→ saved to ", filePath)
 }
 
-# --- 실행 부분 ---
+# --- Execution ---
 for (i in seq_along(sample.names)) {
   cat(sample.names[i], "is converting...\n")
   process_MH(i, sample.names[i], dadaFs, configInfo, outputDir)
 }
+
