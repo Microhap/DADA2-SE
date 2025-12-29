@@ -99,7 +99,15 @@ The `test/` directory includes:
 <br>
 
 ## Outputs
+All output files are automatically generated in an Output subdirectory under the user-defined path.
+The Output directory is created automatically if it does not already exist.
+
 Output contains denoised haplotype data for each marker.
+
+Final output files will be saved to:
+```
+./test/Output/
+```
 
 <br>
 
