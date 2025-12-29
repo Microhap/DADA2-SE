@@ -9,7 +9,7 @@ library(dada2)
 library(ShortRead)
 
 rm(list=ls())
-path <- "D:/DADA2/MH-MiSeq"   # CHANGE ME to the directory containing the fastq files after unzipping
+path <- "D:/DADA2-SE-main/test/"   # CHANGE ME to the directory containing the fastq files after unzipping
 list.files(path)
 
 # Get forward fastq filenames
@@ -50,7 +50,7 @@ dadaFs <- lapply(derepFs, dada, err=errF, multithread=TRUE)
 
 library(stringr)
 
-configInfo <- read.table("D:/DADA2/MH24_241224.config", sep = "\t")   # CHANGE ME to the directory containing Configuration file
+configInfo <- read.table("D:/DADA2-SE-main/test/MH24_241224.config", sep = "\t")   # CHANGE ME to the directory containing Configuration file
 outputDir <- file.path(path, "Output")
 if (!dir.exists(outputDir)) dir.create(outputDir)
 
@@ -136,5 +136,6 @@ for (i in seq_along(sample.names)) {
   cat(sample.names[i], "is converting...\n")
   process_MH(i, sample.names[i], dadaFs, configInfo, outputDir)
 }
+
 
 
