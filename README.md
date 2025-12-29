@@ -1,6 +1,6 @@
 # DADA2-SE
 
-![Last Commit](https://img.shields.io/github/last-commit/Microhap/DADA2-SE)
+![Last Updated](https://img.shields.io/github/last-commit/Microhap/DADA2-SE?label=last%20updated)
 
 DADA2-SE is an R script that performs denoising of single-end Illumina MiSeq sequencing data for microhaplotypes using DADA2. 
 <br> <br> 
