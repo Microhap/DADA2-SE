@@ -80,7 +80,9 @@ The `test/` directory includes:
 ```
 ./test/2800M#2_S2_L001_R1_001.fastq
 ```
+
 <br>
+
 - A configuration file for 24 microhaplotypes:
 ```
 ./test/MH24_241224.config
