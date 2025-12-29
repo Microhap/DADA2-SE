@@ -104,6 +104,8 @@ The Output directory is created automatically if it does not already exist.
 
 Output contains denoised haplotype data for each marker.
 
+<br>
+
 Final output files will be saved to:
 ```
 ./test/Output/
