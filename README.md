@@ -35,7 +35,7 @@ This pipeline recommends using the forward reads as input. Merged paired-end rea
 Make sure to modify the path in the script to reflect the absolute path of your FASTQ files.
 
 ```
-path <- "E:/DADA2/MH-MiSeq"   # CHANGE ME to the directory containing the fastq files after unzipping
+path <- "D:/DADA2-SE-main/test/"   # CHANGE ME to the directory containing the fastq files after unzipping
 ```
 <br>
 
@@ -63,7 +63,7 @@ Below is an example of a configuration file:
 Make sure to modify the path in the script to reflect the absolute path of your configuration file.
 
 ```
-configInfo <- read.table("E:/DADA2/MH24_241224.config", sep="\t")   # CHANGE ME to the directory containing Configuration file 
+configInfo <- read.table("D:/DADA2-SE-main/test/MH24_241224.config", sep = "\t")   # CHANGE ME to the directory containing Configuration file 
 ```
 
 <br>
