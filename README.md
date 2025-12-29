@@ -28,7 +28,7 @@ install.packages("stringr")
 ## Inputs
 
 ### 1.  FASTQ files 
-This pipeline recommends using the forward reads as input. Merged paired-end reads into a single FASTQ file are not recommended due to potential quality issues in reverse reads. At least two FASTQ files from independent samples are required, as DADA2 recommends multiple samples for accurate error modeling. The FASTQ files should be generated from the same sequencing batch to ensure consistent error modeling and quality control.
+This pipeline recommends using the forward reads as input. Merged paired-end reads into a single FASTQ file are not recommended due to potential quality issues in reverse reads. The FASTQ files should be generated from the same sequencing batch to ensure consistent error modeling and quality control.
 
 <br>
 
