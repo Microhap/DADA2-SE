@@ -139,7 +139,7 @@ If you use this pipeline in your work, please cite the following article:
 
 > *Y.L. Kwon, J. Kim, S.M. Joo, K.J. Shin*  
 > **_Denoising of microhaplotype MPS data using DADA2 and its application to two-person DNA mixture analysis_**  
-> *Forensic Science International: Genetics, 2025, 103295.*  
+> *Forensic Science International: Genetics, 2025:103295.*  
 > [https://doi.org/10.1016/j.fsigen.2025.103295](https://doi.org/10.1016/j.fsigen.2025.103295)
 
 
