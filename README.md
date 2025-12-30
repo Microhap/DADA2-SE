@@ -103,7 +103,7 @@ The `test/` directory includes:
 
 ## Outputs
 All output files are automatically generated in an `Output/` subdirectory under the user-defined path.
-The Output directory is created automatically if it does not already exist.
+The Output directory is created **automatically** if it does not already exist.
 
 <br>
 
