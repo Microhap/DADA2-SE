@@ -112,6 +112,20 @@ Final output files will be saved to:
 ./test/Output/
 ```
 
+For example, if the path is set as:
+
+path <- "D:/DADA2-SE-main/test/"
+
+
+The final output files will be saved to:
+
+D:/DADA2-SE-main/test/Output/
+
+
+
+
+
+
 <br>
 
 Output contains denoised haplotype data for each marker.
