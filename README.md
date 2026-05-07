@@ -96,17 +96,11 @@ You can download the test dataset in the `test/` directory.
 
 The `test/` directory includes:
 
-- Amplicon sequencing data for 24 microhaplotypes from 2800M reference DNA (forward only):
-```
-./test/2800M_S1_L001_R1_001.fastq
-```
-
+1. Amplicon sequencing data for 24 microhaplotypes from 2800M reference DNA (forward only):  ./test/2800M_S1_L001_R1_001.fastq
 <br>
+2. A configuration file for 24 microhaplotypes:  ./test/MH24.config
 
-- A configuration file for 24 microhaplotypes:
-```
-./test/MH24.config
-```
+3. A marker information file for Visual Microhap:
 
 
 <br>
