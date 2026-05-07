@@ -119,7 +119,7 @@ The `test/` directory includes:
   **3. Marker information file (Visual Microhap only)**
 <br>
 
-  This file is **not required** for running the DADA2-SE pipeline. It is provided only for downstream visualization and analysis using **Visual Microhap**.
+  This file is **not required** for running the DADA2-SE pipeline. It is provided only for downstream analysis using **Visual Microhap**.
 
 ```
 ./test/MH24-Marker_info.txt
