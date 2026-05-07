@@ -103,9 +103,7 @@ The `test/` directory includes:
 
   Forward-read FASTQ of 2800M reference DNA for 24 microhaplotypes.
 
-```
-./test/2800M_S1_L001_R1_001.fastq
-```
+`./test/2800M_S1_L001_R1_001.fastq`
 
 <br>
 
@@ -114,9 +112,7 @@ The `test/` directory includes:
 
   Example configuration file for running the DADA2-SE pipeline with 24 microhaplotypes.
 
-```
-./test/MH24.config
-```
+`./test/MH24.config`
 
 <br>
 
@@ -125,9 +121,7 @@ The `test/` directory includes:
 
   This file is **not required** for running the DADA2-SE pipeline. It is provided only for downstream analysis using **[Visual Microhap](http://forensic.yonsei.ac.kr/VisualMH/index.html)**.
 
-```
-./test/MH24-Marker_info.txt
-```
+`./test/MH24-Marker_info.txt`
 
 <br>
 
