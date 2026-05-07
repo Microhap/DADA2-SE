@@ -99,21 +99,24 @@ The `test/` directory includes:
 **1. Amplicon sequencing data**
 Forward-read FASTQ file containing 24 microhaplotypes from 2800M reference DNA.
 
-```text
+```
 ./test/2800M_S1_L001_R1_001.fastq
+```
 
 **2. Configuration file**  
 Example configuration file for running the DADA2-SE pipeline with 24 microhaplotypes.
 
-```text
+```
 ./test/MH24.config
+```
 
 **3. Marker information file (Visual Microhap only)**  
 This file is **not required** for running the DADA2-SE pipeline.  
 It is provided only for downstream visualization and analysis using **Visual Microhap**.
 
-```text
+```
 ./test/MH24-Marker_info.txt
+```
 
 <br>
 
