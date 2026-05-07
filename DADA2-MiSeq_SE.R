@@ -50,7 +50,7 @@ dadaFs <- lapply(derepFs, dada, err=errF, multithread=TRUE)
 
 library(stringr)
 
-configInfo <- read.table("D:/DADA2-SE-main/test/MH24_241224.config", sep = "\t")   # CHANGE ME to the directory containing Configuration file
+configInfo <- read.table("D:/DADA2-SE-main/test/MH24.config", sep = "\t")   # CHANGE ME to the directory containing Configuration file
 outputDir <- file.path(path, "Output")
 if (!dir.exists(outputDir)) dir.create(outputDir)
 
