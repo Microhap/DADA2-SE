@@ -98,7 +98,7 @@ The `test/` directory includes:
 
 <br>
 
-    **1. Amplicon sequencing data** `2800M_S1_L001_R1_001.fastq` : Forward-read FASTQ of 2800M reference DNA for 24 microhaplotypes.
+    **1. Amplicon sequencing data**    `2800M_S1_L001_R1_001.fastq` : Forward-read FASTQ of 2800M reference DNA for 24 microhaplotypes.
 <br>
 
 
