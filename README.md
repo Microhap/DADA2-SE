@@ -107,6 +107,8 @@ The `test/` directory includes:
 ./test/2800M_S1_L001_R1_001.fastq
 ```
 
+<br>
+
   **2. Configuration file**
 <br>
 
@@ -115,6 +117,8 @@ The `test/` directory includes:
 ```
 ./test/MH24.config
 ```
+
+<br>
 
   **3. Marker information file (Visual Microhap only)**
 <br>
