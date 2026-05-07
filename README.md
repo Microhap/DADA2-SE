@@ -95,9 +95,11 @@ You can download the test dataset in the `test/` directory.
 <br>
 
 The `test/` directory includes:
+<br>
 
 **1. Amplicon sequencing data**
 <br>
+
 Forward-read FASTQ of 2800M reference DNA for 24 microhaplotypes.
 
 ```
@@ -106,6 +108,7 @@ Forward-read FASTQ of 2800M reference DNA for 24 microhaplotypes.
 
 **2. Configuration file**
 <br>
+
 Example configuration file for running the DADA2-SE pipeline with 24 microhaplotypes.
 
 ```
@@ -114,8 +117,8 @@ Example configuration file for running the DADA2-SE pipeline with 24 microhaplot
 
 **3. Marker information file (Visual Microhap only)**
 <br>
-This file is **not required** for running the DADA2-SE pipeline.  
-It is provided only for downstream visualization and analysis using **Visual Microhap**.
+
+This file is **not required** for running the DADA2-SE pipeline. It is provided only for downstream visualization and analysis using **Visual Microhap**.
 
 ```
 ./test/MH24-Marker_info.txt
