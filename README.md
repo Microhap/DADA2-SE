@@ -114,7 +114,7 @@ Example configuration file for running the DADA2-SE pipeline with 24 microhaplot
 
 <br>
 
-**3. Marker information file (Visual Microhap only)** : `MH24-Marker_info.txt`
+**3. Marker information file** (Visual Microhap only) : `MH24-Marker_info.txt`
 <br>
 
 This file is **not required** for running the DADA2-SE pipeline. It is provided only for downstream analysis using **[Visual Microhap](http://forensic.yonsei.ac.kr/VisualMH/index.html)**.
