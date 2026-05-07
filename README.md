@@ -71,7 +71,7 @@ Below is an example of a configuration file:
 Make sure to **modify the path** in the script to reflect the absolute path of your configuration file.
 
 ```
-configInfo <- read.table("D:/DADA2-SE-main/test/MH24_241224.config", sep = "\t")   # CHANGE ME to the directory containing Configuration file 
+configInfo <- read.table("D:/DADA2-SE-main/test/MH24.config", sep = "\t")   # CHANGE ME to the directory containing Configuration file 
 ```
 
 <br>
@@ -95,7 +95,7 @@ The `test/` directory includes:
 
 - A configuration file for 24 microhaplotypes:
 ```
-./test/MH24_241224.config
+./test/MH24.config
 ```
 
 
