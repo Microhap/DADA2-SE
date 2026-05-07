@@ -16,9 +16,9 @@ The denoising pipeline for microhaplotype consists of three main steps: ASV infe
 DADA2-SE/
 ├── DADA2-MiSeq_SE.R                      # main script
 ├── test/                                 # test dataset
-│   ├── 2800M_S1_L001_R1_001.fastq         # fastq file 
-│   ├── MH24.config                          # configuration file 
-│   └── MH24-Marker_info.txt                 # marker information file for Visual Microhap
+│   ├── 2800M_S1_L001_R1_001.fastq             # fastq file 
+│   ├── MH24.config                            # configuration file 
+│   └── MH24-Marker_info.txt                   # marker information file for Visual Microhap
 ├── image/   
 └── README.md
 ```
